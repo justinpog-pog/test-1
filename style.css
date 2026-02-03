@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+:root{
+    --header-color: #119DA4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--header-color);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+
+nav ol{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    padding: 12px 20px;
+    background-color: #3498db;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2980b9;
+}
+
+.box-mere{
+  display: flex;
+  flex-direction: row;   /* ← horizontal */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin: 50px;
+  padding: 10px;
+
+}
+
+.box1{
+  height: 300px;
+  width: 250px;
+  border: solid 2px red;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  border-radius: 10px;
+  box-shadow: 20px 2px 40px;
+  padding: 10px;
+}
+
+.boite{
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  transition: background-color 0.5s ease;
+}
+
+button{
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
